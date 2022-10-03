@@ -1,0 +1,8 @@
+<launch>
+
+  <rosparam file="$(find rgbd_dense_mapping)/param/point_cloud.yaml" command="load"/>
+
+  <node name='pointcloud_mapping' pkg="rgbd_dense_mapping" type="pointcloud_mapping_node" output="screen">  
+  </node>
+ 
+</launch>

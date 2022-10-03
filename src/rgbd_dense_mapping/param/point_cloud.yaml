@@ -1,0 +1,9 @@
+/rgb_topic: "/camera/rgb/image_raw"
+/depth_topic: "/camera/depth/image_raw"
+frame_catch_number: 20
+frame_read_number:  6
+cx:  314.5
+cy:  210.5
+fx:  581.2
+fy: -592.0
+depthScale: 5000.0
